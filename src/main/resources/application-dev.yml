@@ -1,0 +1,29 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/blog?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: root
+  jpa:
+    # Specify the DBMS
+    database: MySQL
+    # Show or not log for each sql query
+    show-sql: true
+    format_sql: true
+    hibernate:
+      # Hibernate ddl auto (create, create-drop, update)
+      ddl-auto: update
+      # Naming strategy
+      #[org.hibernate.cfg.ImprovedNamingStrategy  #org.hibernate.cfg.DefaultNamingStrategy]
+      naming_strategy: org.hibernate.cfg.ImprovedNamingStrategy
+      # stripped before adding them to the entity manager)
+      dialect: org.hibernate.dialect.MySQL5Dialect
+logging:
+  level:
+    root: info
+    com.lrm: debug
+  file: log/blog-dev.log
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+

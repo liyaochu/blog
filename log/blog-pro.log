@@ -1,0 +1,27 @@
+2019-12-13 09:12:22.705  INFO 84512 --- [restartedMain] com.lrm.BlogApplication                  : Starting BlogApplication on liyaochudeMacBook-Pro.local with PID 84512 (/Users/liyaochu/workspace/blog/target/classes started by liyaochu in /Users/liyaochu/workspace/blog)
+2019-12-13 09:12:22.708  INFO 84512 --- [restartedMain] com.lrm.BlogApplication                  : The following profiles are active: pro
+2019-12-13 09:12:30.987  INFO 84512 --- [restartedMain] com.lrm.BlogApplication                  : Started BlogApplication in 8.772 seconds (JVM running for 9.842)
+2019-12-13 09:13:04.113  INFO 84512 --- [http-nio-8080-exec-1] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-12-13 09:13:04.486  WARN 84512 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2019-12-13 09:13:04.537  WARN 84512 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2019-12-13 09:13:04.589  INFO 84512 --- [http-nio-8080-exec-1] com.lrm.aspect.LogAspect                 : Result : index
+2019-12-13 09:13:08.846  INFO 84512 --- [http-nio-8080-exec-6] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog/4', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.blog', args=[4, {}]}
+2019-12-13 09:13:09.398  INFO 84512 --- [http-nio-8080-exec-6] com.lrm.aspect.LogAspect                 : Result : blog
+2019-12-13 09:13:09.897  INFO 84512 --- [http-nio-8080-exec-8] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost:8080/comments/4', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.CommentController.comments', args=[4, {}]}
+2019-12-13 09:13:09.947  INFO 84512 --- [http-nio-8080-exec-8] com.lrm.aspect.LogAspect                 : Result : blog :: commentList
+2019-12-13 09:14:02.943  INFO 84664 --- [restartedMain] com.lrm.BlogApplication                  : Starting BlogApplication on liyaochudeMacBook-Pro.local with PID 84664 (/Users/liyaochu/workspace/blog/target/classes started by liyaochu in /Users/liyaochu/workspace/blog)
+2019-12-13 09:14:02.944  INFO 84664 --- [restartedMain] com.lrm.BlogApplication                  : The following profiles are active: pro
+2019-12-13 09:14:12.056  INFO 84664 --- [restartedMain] com.lrm.BlogApplication                  : Started BlogApplication in 9.979 seconds (JVM running for 11.297)
+2019-12-13 09:14:20.366  INFO 84690 --- [restartedMain] com.lrm.BlogApplication                  : Starting BlogApplication on liyaochudeMacBook-Pro.local with PID 84690 (/Users/liyaochu/workspace/blog/target/classes started by liyaochu in /Users/liyaochu/workspace/blog)
+2019-12-13 09:14:20.369  INFO 84690 --- [restartedMain] com.lrm.BlogApplication                  : The following profiles are active: pro
+2019-12-13 09:14:28.336  INFO 84690 --- [restartedMain] com.lrm.BlogApplication                  : Started BlogApplication in 8.743 seconds (JVM running for 9.66)
+2019-12-13 09:14:55.437  INFO 84690 --- [http-nio-8080-exec-1] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog/4', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.blog', args=[4, {}]}
+2019-12-13 09:14:55.707  INFO 84690 --- [http-nio-8080-exec-1] com.lrm.aspect.LogAspect                 : Result : blog
+2019-12-13 09:14:56.773  INFO 84690 --- [http-nio-8080-exec-5] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost:8080/comments/4', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.CommentController.comments', args=[4, {}]}
+2019-12-13 09:14:56.850  INFO 84690 --- [http-nio-8080-exec-5] com.lrm.aspect.LogAspect                 : Result : blog :: commentList
+2019-12-13 09:18:48.646  INFO 84690 --- [http-nio-8080-exec-2] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.AboutShowController.about', args=[]}
+2019-12-13 09:18:48.671  INFO 84690 --- [http-nio-8080-exec-2] com.lrm.aspect.LogAspect                 : Result : about
+2019-12-13 09:19:31.323  INFO 84690 --- [http-nio-8080-exec-5] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-12-13 09:20:07.978  WARN 84690 --- [http-nio-8080-exec-5] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2019-12-13 09:20:08.013  WARN 84690 --- [http-nio-8080-exec-5] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2019-12-13 09:20:08.063  INFO 84690 --- [http-nio-8080-exec-5] com.lrm.aspect.LogAspect                 : Result : index

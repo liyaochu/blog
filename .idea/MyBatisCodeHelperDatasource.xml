@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisCodeHelperDatasource">
+    <option name="activeDatabaseInfo">
+      <NewDatabaseInfo>
+        <option name="database" value="blog" />
+        <option name="databaseType" value="MySql" />
+        <option name="password" value="root" />
+        <option name="url" value="localhost:3306" />
+        <option name="userName" value="root" />
+      </NewDatabaseInfo>
+    </option>
+    <option name="databaseInfos">
+      <list>
+        <NewDatabaseInfo>
+          <option name="database" value="blog" />
+          <option name="databaseType" value="MySql" />
+          <option name="password" value="root" />
+          <option name="url" value="localhost:3306" />
+          <option name="userName" value="root" />
+        </NewDatabaseInfo>
+      </list>
+    </option>
+    <option name="projectProfile">
+      <ProjectProfile>
+        <option name="javaMapperPackage" value="com.lrm.mapper" />
+        <option name="javaMapperPath" value="$PROJECT_DIR$/src/main/java" />
+        <option name="javaModelPackage" value="com.lrm.modle" />
+        <option name="javaModelPath" value="$PROJECT_DIR$/src/main/java" />
+        <option name="lastDatabaseCrudChooseModuleName" value="blog" />
+        <option name="moduleNameToPackageAndPathMap">
+          <map>
+            <entry key="blog">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.lrm.mapper" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/src/main/java" />
+                  <option name="javaModelPacakge" value="com.lrm.modle" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/src/main/java" />
+                  <option name="xmlPackage" value="mapper" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="tableGenerateConfigs">
+          <map>
+            <entry key="blog:t_blog">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="id" />
+                  <option name="javaModelName" value="TBlog" />
+                  <option name="moduleName" value="blog" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="blog:t_blog_tags">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="TBlogTags" />
+                  <option name="moduleName" value="blog" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="blog:t_comment">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="TComment" />
+                  <option name="moduleName" value="blog" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="blog:t_tag">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="TTag" />
+                  <option name="moduleName" value="blog" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="blog:t_type">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="id" />
+                  <option name="javaModelName" value="TType" />
+                  <option name="moduleName" value="blog" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="blog:t_user">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="id" />
+                  <option name="javaModelName" value="TUser" />
+                  <option name="moduleName" value="blog" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="useLomBokOnModel" value="true" />
+        <option name="xmlMapperPackage" value="mapper" />
+        <option name="xmlMapperPath" value="$PROJECT_DIR$/src/main/resources" />
+      </ProjectProfile>
+    </option>
+  </component>
+</project>
